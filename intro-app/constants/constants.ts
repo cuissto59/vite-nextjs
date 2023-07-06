@@ -9,3 +9,5 @@ export const GENDER = {
     GENDERLESS: "Genderless",
     UNKNOWN: "Unknown"
 }
+
+export const HERO_TITLE = "Rick and Morty"
