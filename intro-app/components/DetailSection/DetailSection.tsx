@@ -1,16 +1,14 @@
-"use client"
-import {Box} from "@/components/Box";
-import {Back} from "@/components/DetailSection/Back";
-import {Next} from "@/components/DetailSection/Next";
-import {Randomize} from "@/components/DetailSection/Randomize";
-import {CharacterInfoSection} from "@/containers";
-import React, {PropsWithChildren, Suspense} from "react";
-import {Id} from "./Id";
+'use client';
+import {Box} from '@/components/Box';
+import {Back} from '@/components/DetailSection/Back';
+import {Next} from '@/components/DetailSection/Next';
+import {Randomize} from '@/components/DetailSection/Randomize';
+import {CharacterInfoSection} from '@/containers';
+import React, {Suspense} from 'react';
+import {Id} from './Id';
 
-interface DetailSectionProps {
-}
 
-export const DetailSection = ({}: PropsWithChildren<DetailSectionProps>) => {
+export const DetailSection = () => {
     return (
         <Box className={'flex  mt-2 min-h-[50vh]'}>
             <Id/>
@@ -22,7 +20,6 @@ export const DetailSection = ({}: PropsWithChildren<DetailSectionProps>) => {
                 <Back/>
                 <Next/>
             </Box>
-
         </Box>
-    )
-}
+    );
+};

@@ -1,1 +1,1 @@
-export * from './characterInfoSection'
+export * from './characterInfoSection';
